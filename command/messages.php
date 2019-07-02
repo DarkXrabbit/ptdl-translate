@@ -72,7 +72,7 @@ return [
             'password_defined' => '您似乎已創建了帶有密碼的 MySQL 連接，您是否想更改？',
             'password' => '資料庫密碼',
             'connection_error' => '無法使用提供的憑證連接 MySQL 伺服器。 返回的錯誤為 ":error"。',
-            'creds_not_saved' => '您的資料庫訪問憑證尚未保存。您需要在繼續前提供有效的連接信息。',
+            'creds_not_saved' => '您的資料庫訪問憑證尚未保存。您需要在繼續前提供有效的連接資訊。',
             'try_again' => '是否返回重試？',
         ],
         'app' => [
@@ -86,7 +86,7 @@ return [
             'cache_driver' => '緩存驅動程序',
             'session_driver' => '會話驅動程序',
             'queue_driver' => '隊列驅動程序',
-            'using_redis' => '若您選擇使用 Redis，請在下方提供有效的連接信息。在您未更改設置的大多數情況下，您均可使用默認值。',
+            'using_redis' => '若您選擇使用 Redis，請在下方提供有效的連接資訊。在您未更改設置的大多數情況下，您均可使用默認值。',
             'redis_host' => 'Redis 主機',
             'redis_password' => 'Redis 密碼',
             'redis_pass_help' => '默認情況下，Redis 伺服器實例無需密碼且在本地運行禁止外界訪問。這種情況下，您只需回車即可。',

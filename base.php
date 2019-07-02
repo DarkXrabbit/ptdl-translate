@@ -43,10 +43,10 @@ return [
         'new' => [
             'header' => '新建 API 密鑰',
             'header_sub' => '新建帳戶訪問密鑰。',
-            'form_title' => '詳細信息',
+            'form_title' => '詳細資訊',
             'descriptive_memo' => [
                 'title' => '描述',
-                'description' => '請輸入便於分辨此密鑰的描述信息。',
+                'description' => '請輸入便於分辨此密鑰的描述資訊。',
             ],
             'allowed_ips' => [
                 'title' => '許可 IP',
@@ -55,10 +55,10 @@ return [
         ],
     ],
     'account' => [
-        'details_updated' => '已成功更新您的帳戶信息。',
+        'details_updated' => '已成功更新您的帳戶資訊。',
         'invalid_password' => '您提供的密碼無效。',
         'header' => '您的帳戶',
-        'header_sub' => '管理您的帳戶信息.',
+        'header_sub' => '管理您的帳戶資訊.',
         'update_pass' => '修改密碼',
         'update_email' => '修改電子郵件地址',
         'current_password' => '當前密碼',
@@ -67,7 +67,7 @@ return [
         'new_email' => '新電子郵件地址',
         'first_name' => '姓氏',
         'last_name' => '名稱',
-        'update_identity' => '更新個人信息',
+        'update_identity' => '更新個人資訊',
         'username_help' => '您的用戶名必須未被他人使用，且僅包含下列字符：:requirements。',
         'language' => '語言',
     ],

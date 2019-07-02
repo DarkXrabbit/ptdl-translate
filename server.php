@@ -218,7 +218,7 @@ return [
             ],
             'view_schedule' => [
                 'title' => '查看計劃',
-                'description' => '允許用戶查看計劃任務的詳細信息，包含執行時間及分配任務。',
+                'description' => '允許用戶查看計劃任務的詳細資訊，包含執行時間及分配任務。',
             ],
             'toggle_schedule' => [
                 'title' => '開關計劃',
@@ -241,8 +241,8 @@ return [
                 'description' => '允許用戶從伺服器刪除計劃。',
             ],
             'view_databases' => [
-                'title' => '查看資料庫信息',
-                'description' => '允許用戶查看所有與此伺服器相關聯的資料庫及其用戶名與密碼信息。',
+                'title' => '查看資料庫資訊',
+                'description' => '允許用戶查看所有與此伺服器相關聯的資料庫及其用戶名與密碼資訊。',
             ],
             'reset_db_password' => [
                 'title' => '重置資料庫',
@@ -309,8 +309,8 @@ return [
         ],
         'sftp' => [
             'header' => 'SFTP 設定',
-            'header_sub' => 'SFTP 連接所需的帳戶信息。',
-            'details' => 'SFTP 信息',
+            'header_sub' => 'SFTP 連接所需的帳戶資訊。',
+            'details' => 'SFTP 資訊',
             'conn_addr' => '連接地址',
             'warning' => 'SFTP 密碼為您的帳戶密碼。請確保您的客戶端被設置為使用 SFTP 而非 FTP 或 FTPS，這些協議間存在差異。',
         ],

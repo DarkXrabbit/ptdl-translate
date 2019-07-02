@@ -24,7 +24,7 @@ return [
         'rebuild_on_boot' => '此伺服器已被標記為需要重新構建 Docker 容器。此操作會在下次啟動伺服器後生效。',
         'install_toggled' => '此伺服器的安裝狀態已被更改。',
         'server_reinstalled' => '此伺服器已置於即將開始的重裝隊列中。',
-        'details_updated' => '已成功更新伺服器信息。',
+        'details_updated' => '已成功更新伺服器資訊。',
         'docker_image_updated' => '已成功更改此伺服器使用的默認 Docker 鏡像。此操作需要重啟以應用更改。',
         'node_required' => '您需要設定至少一個節點以添加伺服器至面板。',
     ],
