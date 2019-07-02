@@ -2,9 +2,9 @@
 
 return [
     'key' => [
-        'warning' => '似乎您已配置應用程序加密密鑰。繼續此操作將覆蓋密鑰並損壞已加密數據。請了解您所執行的操作後再決定是否繼續！！！',
-        'confirm' => '我已瞭解執行此操作的後果並承受丟失加密數據的風險，請繼續。',
-        'final_confirm' => '確您是否決定繼續？更改應用程序加密密鑰將導致數據丟失！！！',
+        'warning' => '似乎您已設定應用程序加密密鑰。繼續此操作將覆蓋密鑰並損壞已加密資料。請了解您所執行的操作後再決定是否繼續！！！',
+        'confirm' => '我已瞭解執行此操作的後果並承受丟失加密資料的風險，請繼續。',
+        'final_confirm' => '確您是否決定繼續？更改應用程序加密密鑰將導致資料丟失！！！',
     ],
     'location' => [
         'no_location_found' => '無法找到與提供的代碼匹配的記錄。',
@@ -29,7 +29,7 @@ return [
         'ask_password_tip' => '若您想創建用戶並稍後發送生成的隨機密碼給用戶，請重新運行此命令（CTRL+C）並添加 `--no-password` 參數。',
         'ask_password_help' => '密碼長度必須至少為八位且包含至少一位大寫字母和數字。',
         '2fa_help_text' => [
-            '此命令將關閉賬戶的兩步驗證（若啟用）。此命令應作為賬戶被鎖定時的恢復措施。',
+            '此命令將關閉帳戶的兩步驗證（若啟用）。此命令應作為帳戶被鎖定時的恢復措施。',
             '若您不想這麼做，請使用 CTRL+C 退出進程。',
         ],
         '2fa_disabled' => '已成功為 :email 禁用兩步驗證。',
@@ -43,7 +43,7 @@ return [
     'server' => [
         'rebuild_failed' => '節點 ":node" 上的重構操作 ":name"（#:id） 發生了 :message 錯誤。',
         'power' => [
-            'confirm' => '您將在 :count 臺服務器上執行 :action 操作。是否繼續？',
+            'confirm' => '您將在 :count 臺伺服器上執行 :action 操作。是否繼續？',
             'action_failed' => '節點 ":node" 上的電源命令 ":name"（#:id） 發生了 :message 錯誤。',
         ],
     ],
@@ -63,16 +63,16 @@ return [
             'ask_encryption' => '加密方法',
         ],
         'database' => [
-            'host_warning' => '由於經常發生套接字連接錯誤，我們極度不推薦您使用 “localhost” 作為數據庫主機地址。若您仍想使用本地連接則應使用 “127.0.0.1”。',
-            'host' => '數據庫主機',
-            'port' => '數據庫端口',
-            'database' => '數據庫名',
-            'username_warning' => '不僅翼龍面板不允許使用 "root" 賬戶連接 MySQL 數據庫，且這將產生嚴重安全漏洞。您應為此軟件單獨創建 MySQL 賬戶。',
-            'username' => '數據庫用戶名',
+            'host_warning' => '由於經常發生套接字連接錯誤，我們極度不推薦您使用 “localhost” 作為資料庫主機地址。若您仍想使用本地連接則應使用 “127.0.0.1”。',
+            'host' => '資料庫主機',
+            'port' => '資料庫端口',
+            'database' => '資料庫名',
+            'username_warning' => '不僅翼龍面板不允許使用 "root" 帳戶連接 MySQL 資料庫，且這將產生嚴重安全漏洞。您應為此軟件單獨創建 MySQL 帳戶。',
+            'username' => '資料庫用戶名',
             'password_defined' => '您似乎已創建了帶有密碼的 MySQL 連接，您是否想更改？',
-            'password' => '數據庫密碼',
-            'connection_error' => '無法使用提供的憑證連接 MySQL 服務器。 返回的錯誤為 ":error"。',
-            'creds_not_saved' => '您的數據庫訪問憑證尚未保存。您需要在繼續前提供有效的連接信息。',
+            'password' => '資料庫密碼',
+            'connection_error' => '無法使用提供的憑證連接 MySQL 伺服器。 返回的錯誤為 ":error"。',
+            'creds_not_saved' => '您的資料庫訪問憑證尚未保存。您需要在繼續前提供有效的連接信息。',
             'try_again' => '是否返回重試？',
         ],
         'app' => [
@@ -89,9 +89,9 @@ return [
             'using_redis' => '若您選擇使用 Redis，請在下方提供有效的連接信息。在您未更改設置的大多數情況下，您均可使用默認值。',
             'redis_host' => 'Redis 主機',
             'redis_password' => 'Redis 密碼',
-            'redis_pass_help' => '默認情況下，Redis 服務器實例無需密碼且在本地運行禁止外界訪問。這種情況下，您只需回車即可。',
+            'redis_pass_help' => '默認情況下，Redis 伺服器實例無需密碼且在本地運行禁止外界訪問。這種情況下，您只需回車即可。',
             'redis_port' => 'Redis 端口',
-            'redis_pass_defined' => '您似乎已為 Redis 配置了密碼，您是否想更改？',
+            'redis_pass_defined' => '您似乎已為 Redis 設定了密碼，您是否想更改？',
         ],
     ],
 ];

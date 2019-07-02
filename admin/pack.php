@@ -11,6 +11,6 @@ return [
     'notices' => [
         'pack_updated' => '已成功更新整合包。',
         'pack_deleted' => '已成功從系統中刪除整合包 “:name”。',
-        'pack_created' => '已成功在系統上創建整合包，您現在可以使用它來部署服務器了。',
+        'pack_created' => '已成功在系統上創建整合包，您現在可以使用它來部署伺服器了。',
     ],
 ];
