@@ -10,7 +10,7 @@
 return [
     'notices' => [
         'pack_updated' => '已成功更新整合包。',
-        'pack_deleted' => '已成功从系统中删除整合包 “:name”。',
-        'pack_created' => '已成功在系统上创建整合包，您现在可以使用它来部署服务器了。',
+        'pack_deleted' => '已成功從系統中刪除整合包 “:name”。',
+        'pack_created' => '已成功在系統上創建整合包，您現在可以使用它來部署服務器了。',
     ],
 ];
